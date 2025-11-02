@@ -30,7 +30,7 @@ header span {
     color: #000000;
 }
 
-/*******HAMBURGER NAVIGATION*******/
+/***********HAMBURGER***********/
 .hamburger {
     background: none;
     border: none;
@@ -47,3 +47,43 @@ header span {
 .hamburger.show::before {
     content: "\00D7";
 }
+
+/***********NAVIGATION***********/
+.navigation {
+    display: none;
+
+}
+
+.navigation.show {
+    display: block;
+
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: .8rem 10px;
+    color: #3D405B;
+    text-decoration: none;
+    border-bottom: solid 1px #ddd;
+}
+
+.navigation a:hover {
+    background-color: #00778B;
+    color: #FFFFFF;
+}
+
+.navigation li.current {
+    background-color: #EEE;
+
+}
+
+h1 {
+    margin-left: 10px;
+}
+
