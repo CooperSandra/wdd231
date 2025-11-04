@@ -8,6 +8,9 @@
     <meta name="author" content="Sandra Cooper">
 
     <!-- Google Font Here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
     
     <!-- Style Sheets Here -->
     <link rel="stylesheet" href="styles/normalize.css">
@@ -15,27 +18,70 @@
     <link rel="stylesheet" href="styles/large.css">
 
     <!-- JavaScript Files Here -->
-    <scripts src="scripts/course.js" defer></scripts>
-    <scripts src="scripts/date.js" defer></scripts>
-    <scripts src="scripts/navigation.js" defer></scripts>
+    <script src="scripts/course.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>   
 </head>
 
 <body>
+    <!-- Header -->
     <header>
-
+        <img src="images/logo.svg" alt="Freeport Chamer of Commerce Logo" width="512" height="512">
+        <span>Sandra Cooper</span>
+        <button id="nav-btn" class="hamburger" aria-label="Toggle Navigation"></button>
     </header>
-
-    <nav>
-
+    <!-- Navigation -->
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
     </nav>
-
+    <!-- Main -->
     <main>
+        <h1>Home</h1><r></r>
+        <section class="card">
+            <h2>About Me</h2>
+            <div class="about-container">
+            <p>Hello! 👋 my name is Sandra Cooper, and I'm a native of the beautiful Islands of The Bahamas. 
+            I currently work at a Technical and Vocational Institute within the IT Department. During my 
+            days off I love attending my church, learning new things, watching old movies, and devouring
+            a good piece of chocolate cake. Software Development and Art are my third passions. Growing up 
+            on an island have taught me resilience during hard times, faith in the unknown, hard-work is 
+            good work and lastly, that family, friends, and strangers are good for the soul.</p>
+            </div>
+        </section>
+        <section class="card">
+            <h2>Student Photo</h2>
+            <div class="profile">
+            <img src="images/profile.jpg" alt="Sandra Cooper">
+            </div>
+        </section>
+        <section class="courses">
+            <h2>Web Certificate Courses</h2>
+            <div class="button">
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
+            <div id="course-container">
 
+            </div>
+
+        </section>
     </main>
-
+    <!-- Footer -->
     <footer>
-
+        <div class="icons">
+            <a href="#"><img src="images/github.svg" alt="github">Github</a>
+            <a href="#"><img src="images/linkedin.svg" alt="linkedin">LinkedIn</a>
+            <a href="#"><img src="images/instagram.svg" alt="instagram">Instagram</a>
+            <a href="#"><img src="images/whatsapp.svg" alt="whatsapp">WhatsApp</a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> • Sandra Cooper • Grand Bahama, The Bahamas</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
     </footer>
-    
+   
 </body>
 </html>
