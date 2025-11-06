@@ -8,11 +8,6 @@ body {
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.5;
-}
-
-html, body {
-    overflow-x: hidden;
 }
 
 /*************HEADER*************/
@@ -20,18 +15,19 @@ header {
     display: flex;
     align-items: center;
     padding: 0.5rem 1rem;
+    background-color: #00778B;
 }
 
 header img {
     display: block;
     width: 44px;
     height: auto;
-    padding-bottom: 5px;
 }
 
 header span {
     font-size: 1.2rem;
-    color: #000000;
+    font-weight: bold;
+    color: #FFFFFF;
 }
 
 /***********HAMBURGER***********/
@@ -58,7 +54,7 @@ header span {
 /***********NAVIGATION***********/
 .navigation {
     display: none;
-    transition: max-height 0.3s ease-in-out;
+    navigation: #00778B;
 }
 
 .navigation.show {
@@ -77,7 +73,7 @@ header span {
     padding: 1rem;
     color: #000000;
     text-decoration: none;
-    border-bottom: solid 1px #DDD;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .navigation a:hover {
@@ -87,10 +83,10 @@ header span {
 
 .navigation li.current {
     background-color: #A9A9A9;
+    font-weight: bold;
 }
 
 /**************MAIN**************/
-
 main {
     display: flex;
     flex-direction: column;
@@ -100,7 +96,7 @@ main {
 
 .card {
     background-color: #D3D3D3;
-    padding: 1rem;
+    overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -108,16 +104,93 @@ main {
 .card h2 {
     background-color: #000000;
     color: #FFFFFF;
-    padding: 5px;
-    margin: 1rem;
+    padding: 0.75rem;
+    margin: 0;
     text-align: center;
+}
+
+.card p {
+    padding: 0 1rem;
 }
 
 .profile img {
     max-width: 100%;
     height: auto;
     display: block;
+    padding-top: 0.75rem;
+    margin: 1rem auto 0;
     border-radius: 8px;
 }
 
+/*************COURSES*************/
+.courses {
+    text-align: center;
+}
+
+.filter-buttons {
+    margin-bottom: 2rem;
+}
+
+.filter-buttons button {
+    background-color: #00778B;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.3rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filter-buttons button:hover {
+    background-color: #06ADCA;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.course-card {
+    background-color: #F4F4F4;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.course-card.completed {
+    background-color: #C8E6C9;
+    border-left: 6px solid 2E7D32;
+}
+
+.credits-total {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+
+/*************FOOTER*************/
+.footer {
+    background-color: #00778B;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.icons {
+    margin-bottom: 0.5rem;
+}
+
+.icons img {
+    width: 44px;
+    height: 44px;
+    margin: 0 5px;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+}
+
+.icons img:hover {
+    transform: scale(1.1);
+}
 

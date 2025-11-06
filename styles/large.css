@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 640px) {
 
 /*************HEADER*************/
 header main nav footer {
@@ -7,17 +7,18 @@ header main nav footer {
 }
 
 header {
-    grid-template-columns: 24px auto;
+    display: grid;
+    grid-template-columns: 40px auto;
+    align-items: center;
+    padding: 1rem;
 }
 
 /***********HAMBURGER***********/
-
 .hamburger {
     display: none;
 }
 
 /***********NAVIGATION***********/
-
 .navigation {
     display: block;
     background-color: #000000;
@@ -33,28 +34,42 @@ header {
 }
 
 /**************MAIN**************/
-
+    
 main {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 1.5rem;
 }
 
-.card h2{
-    background-color: #000000;
-    color: #FFFFFF;    
-    padding: 5px;
-    margin: 1rem;
+.card {
+    padding: 1rem;
+    margin: 0 auto;
 }
 
-.courses {
-    grid-column: 1 / -1;
+.card h2 {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 0.75rem;
+    margin: 0;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .profile img {
     width: 100%;
     height: auto;
     border-radius: 8px;
+    margin: auto;
+}
+
+/*************FOOTER*************/
+.footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 5px;
 }
 
 }
