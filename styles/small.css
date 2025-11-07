@@ -27,7 +27,7 @@ header img {
 header span {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 /***********HAMBURGER***********/
@@ -132,8 +132,9 @@ main {
 }
 
 .filter-buttons button {
-    background-color: #00778B;
+    background-color: #000000;
     color: #FFFFFF;
+    font-weight: bold;
     border: none;
     padding: 0.5rem 1rem;
     margin: 0.3rem;
@@ -144,9 +145,10 @@ main {
 
 .filter-buttons button:hover {
     background-color: #06ADCA;
+    color: #000000;
 }
 
-.course-grid {
+.course-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
@@ -183,8 +185,8 @@ main {
 }
 
 .icons img {
-    width: 44px;
-    height: 44px;
+    width: 34px;
+    height: 34px;
     margin: 0 5px;
     vertical-align: middle;
     transition: transform 0.3s ease;
