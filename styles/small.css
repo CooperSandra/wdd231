@@ -40,9 +40,9 @@ header span {
     top: 15px;
     right: 20px;
     font-size: 2rem;
-    color: #000000;
+    color: #FFFFFF;
     cursor: pointer;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, sans-serif;
 }
 
 .hamburger::before {
@@ -80,7 +80,7 @@ header span {
 }
 
 .navigation a:hover {
-    background-color: #353535;
+    background-color: #004E98;
 
 }
 
@@ -145,7 +145,7 @@ main {
 }
 
 .courses button:hover {
-    background-color: #353535;
+    background-color: #004E98;
 }
 
 .course-list {
@@ -162,7 +162,7 @@ main {
 }
 
 .course-card.completed {
-    background-color: #C8E6C9;
+    background-color: #D3D3D3;
     border-left: 6px solid 2E7D32;
 }
 

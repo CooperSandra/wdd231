@@ -11,6 +11,7 @@ const courses = [
         ],
         completed: true
     },
+
     {
         subject: 'WDD',
         number: 130,
@@ -24,6 +25,7 @@ const courses = [
         ],
         completed: true
     },
+
     {
         subject: 'CSE',
         number: 111,
@@ -36,6 +38,7 @@ const courses = [
         ],
         completed: true
     },
+
     {
         subject: 'CSE',
         number: 210,
@@ -48,6 +51,7 @@ const courses = [
         ],
         completed: true
     },
+
     {
         subject: 'WDD',
         number: 131,
@@ -62,6 +66,7 @@ const courses = [
         ],
         completed: true
     },
+    
     {
         subject: 'WDD',
         number: 231,
@@ -77,3 +82,40 @@ const courses = [
         completed: false
     }
 ]
+
+const courseContainer = document.querySelector('.course-list');
+const totalCredits = document.querySelector('#totalCredits');
+
+function displayCourses(courseArray) {
+    courseContainer.innerHTML = '';
+
+    courseArray.forEach(course => {
+        const div = document.createElement('div');
+        div.classList.add('course-card');
+        if (course.completed) div.classList.add('completed');
+
+        div.innerHTML = `<h3>${course.subject} ${course.number}: ${course.title}</h3>
+            <p><strong>Credits:</strong> ${course.credits}</p>
+            <p>${course.description}</p>
+            <p><strong>Technologies:</strong> ${course.technology.join(', ')}</p>`;
+        courseContainer.appendChild(div);
+    });
+    const total = courseArray.reduce((sum, course) => sum + course.credits, 0);
+    totalCredits.textContent = total;
+}
+
+document.getElementById('allBTN').addEventListener('click', () => {
+    displayCourses(courses);
+});
+
+document.getElementById('wddBTN').addEventListener('click', () => {
+    const wddCourses = courses.filter(course => course.subject === 'WDD');
+    displayCourses(wddCourses);
+});
+
+document.getElementById('cseBTN').addEventListener('click', () => {
+    const cseCourses = courses.filter(course => course.subject === 'CSE');
+    displayCourses(cseCourses);
+});
+
+displayCourses(courses);
