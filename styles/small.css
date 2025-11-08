@@ -3,7 +3,7 @@ black #000000
 white #FFFFFF
 monochrome #353535
 deep sea #0D1B2A, #415A77, #778DA9, #E0E1DD
-serene blue #274C77
+serene blue #274C77, #004E98
 */
 
 body {
@@ -116,6 +116,7 @@ main {
     padding: 0 1rem;
 }
 
+/**************IMAGE**************/
 .profile img {
     max-width: 100%;
     height: auto;
@@ -129,6 +130,10 @@ main {
 .courses {
     text-align: center;
     margin-bottom: 2rem;
+}
+
+p {
+    text-align: center;
 }
 
 .courses button {
@@ -151,20 +156,19 @@ main {
 .course-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    padding: 1rem 0;
     gap: 1rem;
 }
 
 .course-card {
     background-color: #F4F4F4;
     padding: 1rem;
-    margin: 0;
+    margin: 8px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .course-card.completed {
-    background-color: #D3D3D3;
+    background-color: #E9ECEF;
     border-left: 6px solid #004E98;
 }
 
