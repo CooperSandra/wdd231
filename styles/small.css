@@ -150,7 +150,7 @@ main {
 
 .course-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
 }
 
@@ -163,7 +163,7 @@ main {
 
 .course-card.completed {
     background-color: #D3D3D3;
-    border-left: 6px solid 2E7D32;
+    border-left: 6px solid #004E98;
 }
 
 .credits-total {
