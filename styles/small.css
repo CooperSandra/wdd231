@@ -1,7 +1,9 @@
 /*----------COLOR SCHEME----------
 black #000000
-metallic seaweed/aquamarine #00778B
-sunglow/yellow #FFC72C
+white #FFFFFF
+monochrome #353535
+deep sea #0D1B2A, #415A77, #778DA9, #E0E1DD
+serene blue #274C77
 */
 
 body {
@@ -15,7 +17,7 @@ header {
     display: flex;
     align-items: center;
     padding: 0.5rem 1rem;
-    background-color: #00778B;
+    background-color: #0D1B2A;
 }
 
 header img {
@@ -27,7 +29,8 @@ header img {
 header span {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #000000;
+    font-size: 24px;
+    color: #FFFFFF;
 }
 
 /***********HAMBURGER***********/
@@ -54,12 +57,12 @@ header span {
 /***********NAVIGATION***********/
 .navigation {
     display: none;
-    navigation: #00778B;
+    background-color: #415A77;
+    
 }
 
 .navigation.show {
     display: block;
-
 }
 
 .navigation ul {
@@ -71,18 +74,19 @@ header span {
 .navigation a {
     display: block;
     padding: 1rem;
-    color: #000000;
     text-decoration: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    color: #E0E1DD;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .navigation a:hover {
-    background-color: #06ADCA;
+    background-color: #353535;
 
 }
 
 .navigation li.current {
-    background-color: #A9A9A9;
+    background-color: #274C77;
     font-weight: bold;
 }
 
@@ -102,7 +106,7 @@ main {
 }
 
 .card h2 {
-    background-color: #000000;
+    background-color: #0D1B2A;
     color: #FFFFFF;
     padding: 0.75rem;
     margin: 0;
@@ -125,27 +129,24 @@ main {
 /*************COURSES*************/
 .courses {
     text-align: center;
-}
-
-.filter-buttons {
     margin-bottom: 2rem;
 }
 
-.filter-buttons button {
-    background-color: #000000;
-    color: #FFFFFF;
+.courses button {
+    background-color: #415A77;
+    color: #E0E1DD;
     font-weight: bold;
+    font-size: 20px;
     border: none;
-    padding: 0.5rem 1rem;
+    padding: 0.75rem 1rem;
     margin: 0.3rem;
     border-radius: 6px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.filter-buttons button:hover {
-    background-color: #06ADCA;
-    color: #000000;
+.courses button:hover {
+    background-color: #353535;
 }
 
 .course-list {
@@ -174,7 +175,7 @@ main {
 
 /*************FOOTER*************/
 .footer {
-    background-color: #00778B;
+    background-color: #0D1B2A;
     color: #FFFFFF;
     text-align: center;
     padding: 1rem 0;
