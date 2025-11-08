@@ -151,12 +151,14 @@ main {
 .course-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 1rem 0;
     gap: 1rem;
 }
 
 .course-card {
     background-color: #F4F4F4;
     padding: 1rem;
+    margin: 0;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
