@@ -1,0 +1,28 @@
+{
+    "family_name": "Cooper",
+    "move_in_date": "2026-12-01",
+    "number_of_persons": 5,
+    "visited_by_bishopric": false,
+    "family_members": [
+        {
+            "name": "Una Cooper",
+            "gender": "Female",
+            "birthdate": "1942-07-30"
+        },
+        {
+            "name": "Grace Cooper",
+            "gender": "Female",
+            "birthdate": "1964-05-19"
+        },
+        {
+            "name": "Cheryl Cooper",
+            "gender": "Female",
+            "birthdate": "1968-08-28"
+        },
+        {
+            "name": "Sandra Cooper",
+            "gender": "Female",
+            "birthdate": "1973-04-03"
+        }
+    ]
+}
