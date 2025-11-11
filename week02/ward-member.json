@@ -23,6 +23,12 @@
             "name": "Sandra Cooper",
             "gender": "Female",
             "birthdate": "1973-04-03"
+        },
+        {
+            "name": "Shantell Cooper",
+            "gender": "Female",
+            "birthdate": "1992-07-07"
         }
+
     ]
 }
