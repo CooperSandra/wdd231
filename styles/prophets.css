@@ -1,0 +1,53 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F7F9FC;
+    color: #333;
+}
+
+header,
+footer {
+    background-color: #024486;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+/*Card Grid Layout*/
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+/*Cards*/
+#cards section {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+#cards section:hover {
+    transform: scale(1.02);
+}
+
+#cards img {
+    border-radius: 8px;
+    margin-top: 0.5rem;
+    width: 100%;
+    height: auto;
+}
+
+p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
