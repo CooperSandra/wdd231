@@ -1,0 +1,95 @@
+{
+  "members": [
+    {
+      "id": "m1",
+      "name": "Seaside Bakery",
+      "tagline": "Fresh bread & island pastries",
+      "category": "Food & Beverage",
+      "town": "Freeport",
+      "address": "5 Beachfront Ave, Freeport",
+      "phone": "(242) 802-0111",
+      "email": "info@seasidebakery.gb",
+      "url": "https://seasidebakery.gb",
+      "logo": "images/seaside-bakery.png",
+      "membership": 2
+    },
+    {
+      "id": "m2",
+      "name": "Harbour Travel",
+      "tagline": "Tours, ferry & charter services",
+      "category": "Travel",
+      "town": "Freeport",
+      "address": "12 Port Road, Freeport",
+      "phone": "(242) 801-0222",
+      "email": "contact@harbourtravel.gb",
+      "url": "https://harbourtravel.gb",
+      "logo": "images/harbour-travel.png",
+      "membership": 3
+    },
+    {
+      "id": "m3",
+      "name": "Island Plumbing Co.",
+      "tagline": "Emergency plumbing & repairs",
+      "category": "Home Services",
+      "town": "East End",
+      "address": "33 Main St, East End",
+      "phone": "(242) 820-0333",
+      "email": "service@islandplumbing.gb",
+      "url": "https://islandplumbing.gb",
+      "logo": "images/island-plumbing.png",
+      "membership": 1
+    },
+    {
+      "id": "m4",
+      "name": "Coral Bank",
+      "tagline": "Personal & business banking",
+      "category": "Finance",
+      "town": "Freeport",
+      "address": "1 Commerce Plaza, Freeport",
+      "phone": "(242) 802-0444",
+      "email": "info@coralbank.gb",
+      "url": "https://coralbank.gb",
+      "logo": "images/coral-bank.png",
+      "membership": 3
+    },
+    {
+      "id": "m5",
+      "name": "Sunrise Hardware",
+      "tagline": "Tools, supplies & rentals",
+      "category": "Retail",
+      "town": "West End",
+      "address": "88 Market St, West End",
+      "phone": "(242) 820-0555",
+      "email": "sales@sunrisehardware.gb",
+      "url": "https://sunrisehardware.gb",
+      "logo": "images/sunrise-hardware.png",
+      "membership": 2
+    },
+    {
+      "id": "m6",
+      "name": "Bahama Health Clinic",
+      "tagline": "Family healthcare",
+      "category": "Health",
+      "town": "Freeport",
+      "address": "20 Wellness Way, Freeport",
+      "phone": "(242) 802-0666",
+      "email": "appointments@bahamahealth.gb",
+      "url": "https://bahamahealth.gb",
+      "logo": "images/bahama-health.png",
+      "membership": 3
+    },
+    {
+      "id": "m7",
+      "name": "GreenFields Landscaping",
+      "tagline": "Residential & commercial landscaping",
+      "category": "Home Services",
+      "town": "Grand Cay",
+      "address": "7 Garden Lane, Grand Cay",
+      "phone": "(242) 820-0777",
+      "email": "hello@greenfields.gb",
+      "url": "https://greenfields.gb",
+      "logo": "images/greenfields.png",
+      "membership": 1
+    }
+  ]
+}

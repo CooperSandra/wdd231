@@ -1,0 +1,44 @@
+@media only screen and (min-width: 640px) {
+    header main nav footer {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+    
+        header {
+            display: grid;
+            grid-template-columns: 40px auto;
+            align-items: center;
+            padding: 1rem;
+        }
+    
+        /***********HAMBURGER***********/
+        .hamburger {
+            display: none;
+        }
+    
+        /***********NAVIGATION***********/
+        .navigation {
+            display: block;
+    
+        }
+    
+        .navigation ul {
+            display: flex;
+        }
+    
+        .navigation a {
+            border-bottom: none;
+        }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        color: var(--header-footer-text);
+        margin: 0 auto;
+        padding: 0.75rem 1rem;
+        }
+
+}
